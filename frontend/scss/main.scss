@@ -369,6 +369,8 @@ input::placeholder {
       border-radius: 0;
       width: auto;
       min-width: 100%;
+      max-height: calc(100vh - 30px) !important; /* Fill the entire page height, minus the toolbar height of 30px */
+      overflow-y: auto !important; /* Ensure content can scroll */
   }
 }
 
