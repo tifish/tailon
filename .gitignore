@@ -31,4 +31,5 @@ frontend_bin.go
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
-dist/
+deploy.sh
+package-lock.json
