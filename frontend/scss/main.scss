@@ -184,7 +184,8 @@ div #command-select {
 // Log view style.
 //----------------------------------------------------------------------------
 .scrollable {
-  height: 100%;
+  // Fill remaining space below the 30px toolbar so that content is not blocked at the bottom
+  height: calc(100% - 30px);
   word-break: break-all;
   white-space: pre;
   overflow: auto;
